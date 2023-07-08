@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontawesome}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage[vietnamese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T5,T1]{fontenc}
+% Define a command for adding a horizontal line separator
+\newcommand{\separator}{\bigskip\hrule\bigskip}
+
+% Define commands for the icons
+\newcommand{\goicon}{\faCode \hspace{0.1cm} Go}
+\newcommand{\reacticon}{\faCode \hspace{0.1cm} React}
+\newcommand{\awsicon}{\faCloud \hspace{0.1cm} AWS}
+\newcommand{\githubicon}{\faGithub \hspace{0.1cm} Github}
+\newcommand{\pythonicon}{\faCode \hspace{0.1cm} Python}
+
+\newcommand{\typescripticon}{\faCode \hspace{0.1cm} Typescript}
+
+% Define the header
+\newcommand{\header}[1]{\noindent\Huge\textbf{#1}\separator}
+
+% Define the subheader
+\newcommand{\subheader}[1]{\noindent\LARGE\textbf{#1}\separator}
+
+% Define the section header
+\newcommand{\sectionheader}[1]{\noindent\large\textbf{#1}\separator}
+
+% Define the bullet point list
+\newenvironment{bullets}{
+    \begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}{
+    \end{itemize}
+}
+
+% Define the document
+\begin{document}
+% Define the header
+
+\header{Lê Trọng Kha}
+
+% Define the subheader
+\subheader{Software Engineer}
+\sectionheader{Information and Contact}
+% Define the contact information
+\begin{center}
+\begin{tabular}{c c }
+\faBirthdayCake & 11/09/2000\\
+ \faEnvelope & ltkha.2000@gmail.com \\
+ \faPhone & +84 935725949 \\
+ \faGithub &
+ \href{https://github.com/khalt00}{github.com/khalt00}
+\\
+\end{tabular}
+\end{center}
+
+% Define the work experience section
+\sectionheader{Work Experience}
+
+\textbf{Software Engineer} \hfill \textbf{February 2022 - Present}\\
+IVS Joint Stock Company, Nha Trang City, Vietnam
+
+\begin{bullets}
+    \item Developed and maintained backend services using Golang
+    \item Utilized AWS services to build and deploy applications
+    \item Implemented source control using Github to manage the codebase
+    \item Working with React for around 5 months
+\end{bullets}
+
+% Define the education section
+\sectionheader{Education}
+
+\textbf{Bachelor of Information and Technology} \hfill \textbf{2018 - 2022}\\
+University of Nha Trang, Nha Trang, Vietnam
+
+% Define the skills section
+\sectionheader{Skills}
+
+\begin{bullets}
+    \item \goicon \hspace{0.1cm}
+    \item \reacticon \hspace{0.1cm}
+    \item \pythonicon \hspace{0.1cm}
+    \item \typescripticon \hspace{0.1cm}
+    \item \awsicon \hspace{0.1cm}
+    \item \githubicon \hspace{0.1cm}
+    
+\end{bullets}
+
+\end{document}
