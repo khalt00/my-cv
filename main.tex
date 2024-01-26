@@ -58,6 +58,29 @@
 \end{tabular}
 \end{center}
 
+
+% Define the highlights section
+\newenvironment{highlights}{
+    \begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}{
+    \end{itemize}
+}
+
+% Define the highlights section
+\sectionheader{Highlights}
+
+\begin{highlights}
+    \item {2 years of experience in software development}
+    \item {Strong in Golang for backend development}
+    \item {Proficient in React for frontend development}
+    \item {Strong skills in Docker and container orchestration}
+    \item {Familiarity with CI/CD pipelines using Gitlab}
+\end{highlights}
+
+
 % Define the work experience section
 \sectionheader{Work Experience}
 
@@ -66,16 +89,37 @@ IVS Joint Stock Company, Nha Trang City, Vietnam
 
 \begin{bullets}
     \item Developed and maintained backend services using Golang
-    \item Utilized AWS services to build and deploy applications
     \item Implemented source control using Github to manage the codebase
     \item Working with React for around 5 months
 \end{bullets}
+
+\textbf{Software Engineer} \hfill \textbf{March 2023 - September 2023}\\
+Cty TNHH giải pháp phần mềm Tường Minh (TMA)
+
+\begin{bullets}
+    \item Working with React, NextJS, NestJS to build web3 marketplace with Mumbai, goerli network
+    \item Using Docker, Docker compose within project
+    \item Implemented source control using Gitlab to manage the codebase
+\end{bullets}
+
+\textbf{Software Engineer} \hfill 
+\textbf{September 2023 - Now}\\
+\begin{bullets}
+    \item Build CI/CD with Gitlab, Docker, and DockerHub for the team.
+    \item Developed core functions for an educational platform(Kahoot alternative) using Golang websockets and Gin framework.
+    \item Developed with NextJS for frontend
+    \item Implemented source control using Gitlab to manage the codebase
+
+\end{bullets}
+
 
 % Define the education section
 \sectionheader{Education}
 
 \textbf{Bachelor of Information and Technology} \hfill \textbf{2018 - 2022}\\
 University of Nha Trang, Nha Trang, Vietnam
+
+\vspace{\baselineskip}
 
 % Define the skills section
 \sectionheader{Skills}
@@ -85,9 +129,8 @@ University of Nha Trang, Nha Trang, Vietnam
     \item \reacticon \hspace{0.1cm}
     \item \pythonicon \hspace{0.1cm}
     \item \typescripticon \hspace{0.1cm}
-    \item \awsicon \hspace{0.1cm}
     \item \githubicon \hspace{0.1cm}
-    
+
 \end{bullets}
 
 \end{document}
