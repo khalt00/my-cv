@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am writing to express my interest in the Backend Engineer (Golang) position at your company. I have over four years of experience in software development, specializing in building scalable backend systems and real-time services using Golang.
+
+In my current role, I work on AI-powered automation tools and internal engineering libraries designed to improve developer productivity and platform capabilities. My work includes building LLM-based chatbot systems, implementing distributed tracing using Jaeger, and developing reusable Go packages used across multiple services.
+
+Previously at TMA Solutions, I contributed to several projects including a real-time educational platform built with Golang and WebSockets, blockchain-based platforms such as an NFT marketplace and decentralized exchange, and AI-powered automation tools. I also built CI/CD pipelines using GitLab and Docker to streamline development and deployment processes.
+
+I am passionate about building high-performance backend systems, distributed services, and developer infrastructure. I enjoy solving complex engineering problems and continuously improving system reliability and scalability.
+
+Thank you for your time and consideration. I look forward to the opportunity to contribute to your engineering team.
+
+Best regards,
+Lê Trọng Kha

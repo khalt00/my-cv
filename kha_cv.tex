@@ -1,0 +1,171 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontawesome}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage[vietnamese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T5,T1]{fontenc}
+% Define a command for adding a horizontal line separator
+\newcommand{\separator}{\bigskip\hrule\bigskip}
+
+% Define commands for the icons
+\newcommand{\goicon}{\faCode \hspace{0.1cm} Go}
+\newcommand{\reacticon}{\faCode \hspace{0.1cm} React}
+\newcommand{\awsicon}{\faCloud \hspace{0.1cm} AWS}
+\newcommand{\githubicon}{\faGithub \hspace{0.1cm} Github}
+\newcommand{\pythonicon}{\faCode \hspace{0.1cm} Solidity}
+\newcommand{\solidity}{\faCode \hspace{0.1cm} Python}
+\newcommand{\typescripticon}{\faCode \hspace{0.1cm} Typescript}
+
+% Define the header
+\newcommand{\header}[1]{\noindent\Huge\textbf{#1}\separator}
+
+% Define the subheader
+\newcommand{\subheader}[1]{\noindent\LARGE\textbf{#1}\separator}
+
+% Define the section header
+\newcommand{\sectionheader}[1]{\noindent\large\textbf{#1}\separator}
+
+% Define the bullet point list
+\newenvironment{bullets}{
+    \begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}{
+    \end{itemize}
+}
+
+% Define the document
+\begin{document}
+% Define the header
+\header{Lê Trọng Kha}
+
+% Define the subheader
+\subheader{Golang Backend Engineer}
+\sectionheader{Information and Contact}
+% Define the contact information
+\begin{center}
+\begin{tabular}{c c }
+\faBirthdayCake & 11/09/2000\\
+ \faEnvelope & ltkha.2000@gmail.com \\
+ \faPhone & +84 935725949 \\
+ \faGithub &
+ \href{https://github.com/khalt00}{github.com/khalt00}
+\\
+\end{tabular}
+\end{center}
+
+
+% Define the highlights section
+\newenvironment{highlights}{
+    \begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}{
+    \end{itemize}
+}
+
+% Define the highlights section
+\sectionheader{Highlights}
+
+\begin{highlights}
+\item {4+ years of software engineering experience}
+\item {Strong expertise in Golang backend development and distributed systems}
+\item {Experience designing gRPC microservices and cloud-native applications}
+\item {Hands-on experience with Kubernetes, Docker, and GitLab CI/CD}
+\item {Built AI systems using LLMs, RAG pipelines, multi-agent workflows, and tool integrations}
+\item {Experience developing reusable platform libraries and internal developer tooling}
+\end{highlights}
+
+
+% Define the work experience section
+\sectionheader{Work Experience}
+
+\textbf{Mercury Studio} \hfill \textbf{Dec 2024 – Present}\\
+AI Platform & Backend Services
+\begin{bullets}
+\item Designed and developed AI-powered backend services in Golang, integrating LLMs, RAG pipelines, and document retrieval systems for internal knowledge management
+\item Built multi-agent workflows with reusable skills and tool integrations to automate business processes and AI-assisted operations
+\item Designed and implemented gRPC-based microservices following distributed system principles
+\item Developed internal Golang libraries and SDKs shared across multiple backend services
+\item Deployed and operated containerized services on Kubernetes environments
+\end{bullets}
+% =============================================================
+
+\textbf{TMA Solutions} \hfill \textbf{Apr 2024 – Dec 2024}\\
+Blockchain Platform Services
+\begin{bullets}
+    \item Developed backend services using Golang for blockchain-based applications
+    \item Built and tested smart contracts using Solidity and Foundry
+    \item Implemented real-time game services using Golang WebSockets
+    \item Developed multiple platform services including Notification, Storage, and Ecommerce
+\end{bullets}
+
+% =============================================================
+
+\textbf{TMA Solutions} \hfill \textbf{Mar 2024 – Apr 2024}\\
+AI Email Automation
+\begin{bullets}
+    \item Built an AI-powered email response system using Golang and Ollama
+    \item Integrated LLM capabilities to automatically generate responses to customer queries
+    \item Designed backend workflows to process and classify incoming emails
+\end{bullets}
+
+% =============================================================
+
+\textbf{TMA Solutions} \hfill \textbf{Dec 2023 – Mar 2024}\\
+Decentralized Exchange (DEX)
+\begin{bullets}
+    \item Implemented CI/CD pipelines using GitLab and Docker
+    \item Developed smart contracts using Foundry inspired by Uniswap liquidity pools
+    \item Built frontend features using Next.js for liquidity management
+    \item Processed blockchain data using Subsquid indexing
+\end{bullets}
+
+% =============================================================
+
+\textbf{TMA Solutions} \hfill \textbf{Sep 2023 – Dec 2023}\\
+Educational Platform (Kahoot Alternative)
+\begin{bullets}
+    \item Built CI/CD pipelines using GitLab, Docker, and DockerHub
+    \item Developed real-time quiz features using Golang, WebSockets, and Gin
+    \item Built frontend components using Next.js and integrated MinIO storage
+    \item Managed source control using GitLab
+\end{bullets}
+
+% =============================================================
+
+\textbf{TMA Solutions} \hfill \textbf{Mar 2023 – Sep 2023}\\
+NFT Marketplace
+\begin{bullets}
+    \item Developed frontend features using React and Next.js
+    \item Built backend APIs using NestJS for marketplace operations
+    \item Integrated blockchain functionality with Polygon Mumbai and Goerli testnets
+    \item Containerized services using Docker and Docker Compose
+\end{bullets}
+
+% =============================================================
+
+\textbf{IVS Joint Stock Company} \hfill \textbf{Feb 2022 – Mar 2023}\\
+Workspace Management Platform
+\begin{bullets}
+    \item Developed backend services using Golang
+    \item Built REST APIs supporting project management workflows
+    \item Implemented frontend features using React
+\end{bullets}
+
+% =============================================================
+
+\vspace{0.5cm}
+% Define the education section
+\sectionheader{Education}
+
+\textbf{Bachelor of Information and Technology} \hfill \textbf{2018 - 2022}\\
+University of Nha Trang, Nha Trang, Vietnam
+
+\vspace{\baselineskip}
+
+\end{document}
